@@ -1,0 +1,35 @@
+.footer {
+  background: #1b1b2f; /* Dark navy/purple */
+  color: #e0e0e0;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.2s;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.footer .container:hover {
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

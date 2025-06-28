@@ -1,0 +1,27 @@
+/* Animate button hover */
+.btn-primary, .btn-secondary {
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth fade-in effect for AOS fallback */
+[data-aos] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth section spacing */
+.section {
+  padding: 80px 20px;
+  scroll-margin-top: 80px;
+}
