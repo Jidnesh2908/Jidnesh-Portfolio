@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Decentralized E-Voting System",
       desc: "Secure voting system using Ethereum blockchain, Solidity smart contracts, and Web3.js for transparent elections.",
       img: "/blockvote.jpg",
-      github: "https://github.com/jidneshshah/evoting-system",
+      github: "https://github.com/Hawk-Group/E-Voting-System-master",
       tech: ["Solidity", "Web3.js", "React", "Ethereum"]
     },
    
