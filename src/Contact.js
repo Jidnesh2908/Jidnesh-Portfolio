@@ -23,9 +23,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <button className="cta-button">
-          Start a Conversation
-        </button>
+      
       </div>
     </section>
   );
