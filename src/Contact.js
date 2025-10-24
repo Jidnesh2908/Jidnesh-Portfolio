@@ -18,7 +18,7 @@ const Contact = () => {
           <a href="www.linkedin.com/in/jidnesh-shah" className="contact-link">
             💼 LinkedIn
           </a>
-          <a href="https://github.com/Jidnesh298" className="contact-link">
+          <a href="https://github.com/Jidnesh2908" className="contact-link">
             🐙 GitHub
           </a>
         </div>
