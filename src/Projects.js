@@ -9,17 +9,23 @@ const Projects = () => {
       title: "Hospital ER Dashboard",
       desc: "Interactive Power BI dashboard for real-time hospital analytics with patient flow tracking, resource optimization, and predictive insights.",
       img: "/hospital.png",
-      github: "https://github.com/Jidnesh298/Hospital-Emergency-Room-Dashboard",
+      github: "https://github.com/Jidnesh2908/Hospital-Emergency-Dashboard-PowerBI",
       tech: ["Power BI", "SQL Server", "Python", "DAX"]
     },
     {
       title: "Decentralized E-Voting System",
       desc: "Secure voting system using Ethereum blockchain, Solidity smart contracts, and Web3.js for transparent elections.",
       img: "/blockvote.jpg",
-      github: "https://github.com/Hawk-Group/E-Voting-System-master",
+      github: "https://github.com/Jidnesh2908/Decentralized-Evoting-System-Using-Blockchain",
       tech: ["Solidity", "Web3.js", "React", "Ethereum"]
     },
-   
+    {
+      title: "Smart Email Assistant",
+      desc: "An AI-powered Spring Boot application that analyzes, categorizes, and responds to emails intelligently using Google Gemini API. It features RESTful APIs for integration, JSON-based responses, and automated workflow management for productivity.",
+      img: "/emailassistant.jpeg.jpeg", 
+      github: "https://github.com/Jidnesh2908/Smart-email-Assistant-System-", 
+      tech: ["Java", "Spring Boot", "REST API", "JSON", "Google Gemini API", "Maven"]
+    },
   ];
 
   return (

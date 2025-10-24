@@ -34,7 +34,7 @@ const Hero = ({ scrollY }) => {
             </button>
 
             <a
-              href="/Jidnesh_Shah Final (1).pdf"
+              href="/Jidnesh_Shah_Resumee.pdf"
               download="JidneshShahResume.pdf"
               className="btn-secondary"
             >
