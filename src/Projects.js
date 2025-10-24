@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: "Smart Email Assistant",
       desc: "An AI-powered Spring Boot application that analyzes, categorizes, and responds to emails intelligently using Google Gemini API. It features RESTful APIs for integration, JSON-based responses, and automated workflow management for productivity.",
-      img: "/emailassistant.jpeg.jpeg", 
+      img: "/emailassistant.jpg", 
       github: "https://github.com/Jidnesh2908/Smart-email-Assistant-System-", 
       tech: ["Java", "Spring Boot", "REST API", "JSON", "Google Gemini API", "Maven"]
     },
