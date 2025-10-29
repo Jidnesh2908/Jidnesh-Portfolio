@@ -26,6 +26,14 @@ const Projects = () => {
       github: "https://github.com/Jidnesh2908/Smart-email-Assistant-System-", 
       tech: ["Java", "Spring Boot", "REST API", "JSON", "Google Gemini API", "Maven"]
     },
+
+    {
+      title: "Library Management API",
+      desc: "A Spring Boot RESTful API that manages books, authors, and borrowers using MySQL. It supports CRUD operations, exception handling, and service-layer architecture for scalability.",
+      img: "/library.jpg", 
+      github: "https://github.com/Jidnesh2908/Library-Management-API",
+      tech: ["Java", "Spring Boot", "Maven", "MySQL", "REST API"]
+    }
   ];
 
   return (
